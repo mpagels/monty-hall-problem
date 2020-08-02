@@ -3,6 +3,7 @@ const games = {
   lost: 0,
 };
 
+// config
 const SWITCH_DOORS = true;
 const GAMES_TO_PLAY = 10000;
 
