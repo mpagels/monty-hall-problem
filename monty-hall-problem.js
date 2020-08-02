@@ -30,7 +30,7 @@ function playgame(switchDoors) {
   let playerChoose = doorsToPlay[getRandomNumber(0, 3)];
 
   // gamemaster deletes one false door, now you decide, to switch door or not
-  let endOfGame = SWITCH_DOORS ? !playerChoose : playerChoose;
+  let endOfGame = switchDoors ? !playerChoose : playerChoose;
 
   if (endOfGame) {
     games.win += 1;
